@@ -31,7 +31,6 @@ namespace HealthAppMAUI
                     var wic = WindowCompat.GetInsetsController(window, decorView);
                     if (wic != null)
                     {
-                        // 🔥 Put it right here 🔥
 
                         // Force WHITE icons on status bar (because background is black)
                         wic.AppearanceLightStatusBars = false;
